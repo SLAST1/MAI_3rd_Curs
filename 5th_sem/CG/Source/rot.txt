@@ -1,0 +1,3 @@
+// Вращение на угол f относительно точки rx, ry
+x_rotated = (x - rx) * cosf - (y - ry) * sinf + rx
+y_rotated = (x - rx) * sinf + (y - ry) * cosf + ry
