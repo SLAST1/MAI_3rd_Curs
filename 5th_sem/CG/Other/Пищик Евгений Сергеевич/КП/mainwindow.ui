@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="MyOpenGLWidget" name="widget" native="true"/>
+    </item>
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="2">
+       <widget class="QSpinBox" name="xa2">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QSpinBox" name="za4">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QSpinBox" name="zb2">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>3</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>  Размер  </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QSpinBox" name="za1">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QSpinBox" name="ya4">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QSpinBox" name="ya2">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-1</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QSpinBox" name="za2">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-4</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="QSpinBox" name="xb4">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>6</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QSpinBox" name="yb2">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QSpinBox" name="za3">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-6</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>   Сплайны   </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QSpinBox" name="yb1">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="QSpinBox" name="yb3">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-1</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSlider" name="size">
+        <property name="maximum">
+         <number>200</number>
+        </property>
+        <property name="value">
+         <number>30</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QSlider" name="z_rot">
+        <property name="maximum">
+         <number>360</number>
+        </property>
+        <property name="value">
+         <number>30</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QSpinBox" name="zb1">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>1</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="8">
+       <widget class="QSpinBox" name="zb4">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QSpinBox" name="xa1">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-10</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>  Вращение по оси Y  </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QSlider" name="y_rot">
+        <property name="maximum">
+         <number>360</number>
+        </property>
+        <property name="value">
+         <number>30</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>  Вращение по оси Z  </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QSpinBox" name="ya1">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QSpinBox" name="xb1">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-4</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="8">
+       <widget class="QSpinBox" name="zb3">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>6</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QSpinBox" name="xa4">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>14</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7">
+       <widget class="QSpinBox" name="yb4">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>3</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="QSpinBox" name="xb3">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>5</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QSpinBox" name="ya3">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>9</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QSlider" name="apro">
+        <property name="minimum">
+         <number>10</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>  Вращение по оси X  </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSlider" name="x_rot">
+        <property name="maximum">
+         <number>360</number>
+        </property>
+        <property name="value">
+         <number>30</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QSpinBox" name="xa3">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>3</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QSpinBox" name="xb2">
+        <property name="minimum">
+         <number>-16</number>
+        </property>
+        <property name="maximum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>-3</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>  Аппроксимация  </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyOpenGLWidget</class>
+   <extends>QWidget</extends>
+   <header>myopenglwidget.h</header>
+   <container>1</container>
+   <slots>
+    <signal>xRotChanged(int)</signal>
+    <signal>yRotChanged(int)</signal>
+    <signal>zRotChanged(int)</signal>
+    <signal>paramChanged(int)</signal>
+    <slot>setXRot(int)</slot>
+    <slot>setYRot(int)</slot>
+    <slot>setZRot(int)</slot>
+    <slot>setParam(int)</slot>
+    <slot>setApro(int)</slot>
+    <slot>setxa1(int)</slot>
+    <slot>setya1(int)</slot>
+    <slot>setza1(int)</slot>
+    <slot>setxa2(int)</slot>
+    <slot>setya2(int)</slot>
+    <slot>setza2(int)</slot>
+    <slot>setxa3(int)</slot>
+    <slot>setya3(int)</slot>
+    <slot>setza3(int)</slot>
+    <slot>setxa4(int)</slot>
+    <slot>setya4(int)</slot>
+    <slot>setza4(int)</slot>
+    <slot>setxb1(int)</slot>
+    <slot>setyb1(int)</slot>
+    <slot>setzb1(int)</slot>
+    <slot>setxb2(int)</slot>
+    <slot>setyb2(int)</slot>
+    <slot>setzb2(int)</slot>
+    <slot>setxb3(int)</slot>
+    <slot>setyb3(int)</slot>
+    <slot>setzb3(int)</slot>
+    <slot>setxb4(int)</slot>
+    <slot>setyb4(int)</slot>
+    <slot>setzb4(int)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>x_rot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setXRot(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>203</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y_rot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setYRot(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>340</x>
+     <y>527</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>368</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>z_rot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setZRot(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>404</x>
+     <y>592</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>495</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>size</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setParam(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>657</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>655</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>apro</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setApro(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>337</x>
+     <y>722</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>814</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xa1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxa1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>449</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1019</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ya1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setya1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1063</x>
+     <y>446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1073</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xa2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxa2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1023</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>927</x>
+     <y>382</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ya2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setya2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1073</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1089</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>za1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setza1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1113</x>
+     <y>451</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1140</x>
+     <y>364</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>za2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setza2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1109</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1165</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xb1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxb1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1363</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1255</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xb2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxb2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1368</x>
+     <y>516</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1265</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yb1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setyb1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1413</x>
+     <y>453</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1330</x>
+     <y>368</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yb2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setyb2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1415</x>
+     <y>508</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1339</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zb1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setzb1(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1463</x>
+     <y>446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1421</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zb2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setzb2(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1463</x>
+     <y>511</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1443</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xb3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxb3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1371</x>
+     <y>586</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1358</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xb4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxb4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1376</x>
+     <y>645</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1368</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yb3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setyb3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1420</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1391</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yb4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setyb4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1417</x>
+     <y>651</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1405</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zb3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setzb3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1469</x>
+     <y>577</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1461</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zb4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setzb4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1467</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1478</x>
+     <y>365</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xa3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxa3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1021</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>945</x>
+     <y>358</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>xa4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setxa4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1033</x>
+     <y>656</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>958</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ya3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setya3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1072</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1035</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>za3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setza3(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1127</x>
+     <y>573</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1118</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ya4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setya4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1070</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>992</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>za4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>widget</receiver>
+   <slot>setza4(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1133</x>
+     <y>649</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1183</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
