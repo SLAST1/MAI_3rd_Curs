@@ -1,0 +1,13 @@
+[package]
+name = "Loshmanov_Yury"
+version = "0.1.1"
+authors = ["Yury  <yuryloshmanov@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = "0.9.1"
+gio = "0.9.1"
+cairo-rs = "0.9.1"
+gdk = "0.13.2"
