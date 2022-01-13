@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang = "ru">
+
+<head>
+    <meta charset = "utf-8"/>
+    <title></title>
+    <link rel = "stylesheet" href = "style.css"/>
+    </head>
+<body>
+
+<div class = "parent">
+    <div class = "child">
+        <p>Лабораторная работа №2
+            <br>Вариант №9
+            <br>Алексеев Владислав
+            <br>Группа М8О-306Б-19
+        </p>
+    </div>
+    <div class = "child" id = "canvas">
+        <h1 id = "header">Шестигранная прямая правильная призма</h1>
+        <canvas id = "prism" height = "900" width = "900"></canvas>
+    </div>
+</div>
+
+<script id = "vertex-shader-2d" type = "x-shader/x-vertex">
+    attribute vec4 a_position;
+    uniform mat4 u_matrix;
+    uniform vec3 u_Color;
+
+    varying vec3 v_Color;
+
+    void main() {
+        v_Color = u_Color;
+        gl_Position = u_matrix*a_position;
+    }
+</script>
+<script id = "fragment-shader-2d" type = "x-shader/x-fragment">
+    precision mediump float;
+    uniform vec4 u_FragColor;
+    varying vec3 v_Color;
+
+    void main() {
+        gl_FragColor = vec4(v_Color,1.0);
+    }
+</script>
+<script type = "text/javascript" src = "solution.js"></script>
+</body>
+</html>

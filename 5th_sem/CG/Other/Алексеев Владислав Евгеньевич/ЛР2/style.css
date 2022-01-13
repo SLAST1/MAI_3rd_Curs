@@ -1,0 +1,20 @@
+#header {
+    text-align: center;
+}
+#prism {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+input {
+    margin: 0 auto;
+    display: block;
+}
+.child {
+    font-size:20px;
+    display: inline-block;
+}
+#canvas {
+    margin: 0 auto;
+    display: block;
+}

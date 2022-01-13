@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.canvas-wrapper {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+canvas {
+    display: block;
+    background-color: white;
+}
+
+.range {
+    margin: 10px 0 20px;
+}
+
+.range input {
+    width: 100%;
+}
+
+.note {
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

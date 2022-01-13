@@ -1,0 +1,14 @@
+.help {
+    position: fixed;
+    font-family: sans-serif;
+    top: 20%;
+    right: 10%;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+}
+
+.help div {
+    padding: 10px;
+    border: 1px solid black;
+}
