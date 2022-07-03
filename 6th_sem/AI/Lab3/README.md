@@ -13,7 +13,7 @@
 
 Решить задачу классификации пород кошек и собак на основе датасета [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
-![Dataset we will deal with](images/data.png)
+![Dataset we will deal with](img/data.png)
 
 #### Задание 1: Классификация Pet Faces
 
