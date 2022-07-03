@@ -93,7 +93,7 @@ Confusion matrix:
 
 #### Mnist 2 layers (tanh)
 <img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_tanh.png" width="512"/>
-<img src="https://github.com/mosikk/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_tanh.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_tanh.png" width="512"/>
 
 ```
 Confusion matrix:
