@@ -64,7 +64,7 @@
 С помощью своей библиотеки я решил задачи классификации для двух датасетов - мнист и фешен мнист.
 
 #### Mnist 1 layer
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/AI/blob/master/6th_sem/Lab2/img/my_fw/1l_loss.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/1l_acc.png" width="512"/>
 <img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/1l_acc.png" width="512"/>
 
 ```
