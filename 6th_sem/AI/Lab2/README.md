@@ -92,8 +92,8 @@ Confusion matrix:
 **Accuracy = 0.89**
 
 #### Mnist 2 layers (tanh)
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_tanh.png" width="512"/>
-<img src="https://github.com/mosikk/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_tanh.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_tanh.png" width="512"/>
+<img src="https://github.com/mosikk/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_tanh.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -120,8 +120,8 @@ Confusion matrix:
 **Accuracy = 0.843**
 
 #### Mnist 2 layers (relu)
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_relu.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_relu.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_relu.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_relu.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -153,8 +153,8 @@ Confusion matrix:
 Однако с фешен мнистом оказалось немного сложнее. Распознавать одежду - более трудная задача для перцептрона.
 
 #### Fashion mnist 1 layer
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/1l_loss_fash.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/1l_acc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/1l_loss_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/1l_acc_fash.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -181,8 +181,8 @@ Confusion matrix:
 **Accuracy = 0.462**
 
 #### Fashion mnist 2 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_fash.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_loss_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/2l_acc_fash.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -209,8 +209,8 @@ Confusion matrix:
 **Accuracy = 0.748**
 
 #### Fashion mnist 3 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/3l_loss_fash.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/my_fw/3l_acc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/3l_loss_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/my_fw/3l_acc_fash.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -243,8 +243,8 @@ Confusion matrix:
 Во второй части работы я должен был решить задачи классификации с помощью нейросетей, используя фреймворк **PyTorch**. С его помощью гораздо удобнее работать с нейронными сетями, а также можно использовать более продвинутые алгоритмы.
 
 #### Mnist 1 layer
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/1l_loss.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/1l_acc.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/1l_loss.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/1l_acc.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -271,8 +271,8 @@ Confusion matrix:
 **Accuracy = 0.923**
 
 #### Mnist 2 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/2l_loss.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/2l_acc.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/2l_loss.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/2l_acc.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -301,8 +301,8 @@ Confusion matrix:
 С помощью торча мы смогли получить более качественную модель для классификации мниста.
 
 #### Fashion mnist 1 layer
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/1l_loss_fash.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/1l_acc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/1l_loss_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/1l_acc_fash.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -329,8 +329,8 @@ Confusion matrix:
 **Accuracy = 0.842**
 
 #### Fashion mnist 2 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/2l_loss_fash.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/2l_acc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/2l_loss_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/2l_acc_fash.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -357,8 +357,8 @@ Confusion matrix:
 **Accuracy = 0.871**
 
 #### Fashion mnist 3 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/3l_locc_fash.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/3l_acc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/3l_locc_fash.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/3l_acc_fash.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -388,8 +388,8 @@ Confusion matrix:
 
 
 #### Cifar 1 layer
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/1l_loss_cifar.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/1l_acc_cifar.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/1l_loss_cifar.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/1l_acc_cifar.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -416,8 +416,8 @@ Confusion matrix:
 **Accuracy = 0.383**
 
 #### Cifar 2 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/2l_loss_cifar.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/2l_acc_cifar.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/2l_loss_cifar.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/2l_acc_cifar.png" width="512"/>
 
 ```
 Confusion matrix:
@@ -444,8 +444,8 @@ Confusion matrix:
 **Accuracy = 0.505**
 
 #### Cifar 3 layers
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/3l_loss_cifar.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/tree/main/6th_sem/AI/Lab2/img/torch/3l_acc_cifar.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/3l_loss_cifar.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab2/img/torch/3l_acc_cifar.png" width="512"/>
 
 ```
 Confusion matrix:
