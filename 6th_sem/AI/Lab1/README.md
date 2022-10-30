@@ -168,15 +168,15 @@ class Film(KnowledgeEngine):
 ---
 <!-- TODO: у Вениамина -->
 
-![alt text](https://github.com/AI/Lab1/1.1.png)
-![alt text](https://github.com/AI/Lab1/1.2.png)
+![alt text](https://github.com/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/1.1.png)
+![alt text](https://github.com/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/1.2.png)
 
 
 Пример 2:
 ---
 
-![alt text](https://github.com/AI/Lab1/2.1.png)
-![alt text](https://github.com/AI/Lab1/2.2.png)
+![alt text](https://github.com/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/2.1.png)
+![alt text](https://github.com/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/2.2.png)
 
 
 ## Выводы
