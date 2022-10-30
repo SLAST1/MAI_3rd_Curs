@@ -168,15 +168,15 @@ class Film(KnowledgeEngine):
 ---
 <!-- TODO: у Вениамина -->
 
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/6th_sem/AI/Lab1/1.1.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/6th_sem/AI/Lab1/1.2.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/1.1.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/1.2.png" width="512"/>
 
 
 Пример 2:
 ---
 
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/6th_sem/AI/Lab1/2.1.png" width="512"/>
-<img src="https://github.com/SLAST1/MAI_3rd_Curs/6th_sem/AI/Lab1/2.2.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/2.1.png" width="512"/>
+<img src="https://github.com/SLAST1/MAI_3rd_Curs/blob/main/6th_sem/AI/Lab1/2.2.png" width="512"/>
 
 
 ## Выводы
